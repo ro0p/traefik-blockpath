@@ -1,6 +1,6 @@
 # Block Path
 
-[![Build Status](https://github.com/traefik/plugin-blockpath/workflows/Main/badge.svg?branch=master)](https://github.com/traefik/plugin-blockpath/actions)
+[![Build Status](https://github.com/traefik/plugin-blockpath/workflows/Main/badge.svg?branch=master)](https://github.com/ro0p/traefik-blockpath/actions)
 
 Block Path is a middleware plugin for [Traefik](https://github.com/traefik/traefik) which blocks requests
 with a configurable status code (default `403 Forbidden`) when the requested HTTP path matches one of the
@@ -15,8 +15,8 @@ configured [regular expressions](https://github.com/google/re2/wiki/Syntax).
     token="xxx"
 
 [experimental.plugins.blockpath]
-    modulename = "github.com/traefik/plugin-blockpath"
-    version = "v0.2.1"
+    modulename = "github.com/ro0p/traefik-blockpath"
+    version = "v0.0.1"
 ```
 
 ## Dynamic
