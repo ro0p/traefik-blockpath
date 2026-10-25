@@ -16,7 +16,7 @@ configured [regular expressions](https://github.com/google/re2/wiki/Syntax).
 
 [experimental.plugins.blockpath]
     modulename = "github.com/ro0p/traefik-blockpath"
-    version = "v0.0.1"
+    version = "v0.1.0"
 ```
 
 ## Dynamic
