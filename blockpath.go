@@ -1,5 +1,5 @@
 // Package plugin_blockpath a plugin to block a path.
-package plugin_blockpath
+package traefik_blockpath
 
 import (
 	"context"

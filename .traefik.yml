@@ -2,9 +2,10 @@ displayName: Block Path with Query
 summary: Blocks HTTP requests with a path and query matching the configured regex.
 type: middleware
 import: github.com/ro0p/traefik-blockpath
+compatibility: TODO
 testData:
   Regex:
     - "^/foo(.*)"
     - "[?&]foo=bar(?:&|$)"
   code: 403
-  includeQuery: false
+  includeQuery: true
